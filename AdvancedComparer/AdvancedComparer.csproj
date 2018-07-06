@@ -12,6 +12,7 @@
     <PackageTags>.net, standard, library, utility, class, compare, comparer, collections, T, objects</PackageTags>
     <PackageReleaseNotes />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
