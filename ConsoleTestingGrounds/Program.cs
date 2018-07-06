@@ -16,18 +16,16 @@ namespace ConsoleTestingGrounds
             var broken = new List<TestObject>(collection2);
             var broken1 = new List<TestObject>(collection2);
 
-            var result = ExtendedComparer.CompareCollections(collection1, collection2);
+            var result = ExtendedComparer.Compare(collection1, collection2);
             Console.WriteLine(result);
 
             broken.First().Obj2.First().Number = 99000;
-            result = ExtendedComparer.CompareCollections(collection1, broken);
+            result = ExtendedComparer.Compare(collection1, broken);
             Console.WriteLine(result);
 
             broken.First().ListOfStrings[1] = "a";
-            result = ExtendedComparer.CompareCollections(collection1, collection2);
+            result = ExtendedComparer.Compare(collection1, collection2);
             Console.WriteLine(result);
-
-
 
             Console.ReadKey();
         }

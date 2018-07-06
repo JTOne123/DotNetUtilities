@@ -7,6 +7,11 @@
     <Authors>EduardCampo</Authors>
     <Description>.net standard library that compares even the most complex collections of objects. Using reflection, the comparer checks if each and every object is identical in both collections and returns true if so.  (including custom objects, lists... anything)</Description>
     <Copyright>Apache License, Version 2.0</Copyright>
+    <PackageProjectUrl>https://github.com/EduardCampo/DotNetUtilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EduardCampo/DotNetUtilities</RepositoryUrl>
+    <PackageTags>.net, standard, library, utility, class, compare, comparer, collections, T, objects</PackageTags>
+    <PackageReleaseNotes />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
